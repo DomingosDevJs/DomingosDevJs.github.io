@@ -11,6 +11,8 @@ h1{
     font-family: 'Press Start 2P', 'Sans Serif';
     color:#FFF;
     text-shadow: 6px 6px 0 #F25A70;
+    align-items: center;
+    justify-content: center;
 }
 
 h1:hover{
@@ -51,7 +53,7 @@ a:hover{
     line-height: 60px;
     padding-right: 20px;
     padding-left: 20px;
-    box-shadow: 5px 5px 0px #FFF;
+    box-shadow: 5px 5px 0px #000;
     margin-right:0;
     transition: transform 0.1s linear;
 }
@@ -61,6 +63,53 @@ a:hover{
     background-color:#FFF;
     color:#000;
     box-shadow: 5px 5px 0px #F25A70;
+}
+
+section{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background-color:#310D20;
+    padding: 50px 60px;
+    box-shadow: 8px 8px 0 #000;
+    transition: transform 0.4s ease-in-out;
+}
+
+section:hover{
+    transform: translateY(-20px);
+}
+
+h2{
+    font-family: 'Press Start 2P', 'Sans Serif';
+    font-size: 40px;
+    color:#FFF;
+    text-shadow: 6px 6px 0 #F25A70;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: inline-block;
+    text-align: center;
+    margin-left: 125px;
+    margin-top: 125px;
+}
+
+p{
+    font-family: 'Press Start 2P', 'Sans Serif';
+    font-size: 30px;
+    color:#F25A70;
+    margin-top:40px;
+    text-shadow: 6px 6px 0 #000;
+    text-align: center;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 100px;
 }
 
 @keyframes float{
