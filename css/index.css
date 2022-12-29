@@ -65,27 +65,6 @@ a:hover{
     box-shadow: 5px 5px 0px #F25A70;
 }
 
-.main{
-    display: inline-block;
-    text-align: center;
-    margin-left: 125px;
-    margin-top: 125px;
-}
-
-section{
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    background-color:#310D20;
-    padding: 50px 60px;
-    box-shadow: 8px 8px 0 #000;
-    transition: transform 0.4s ease-in-out;
-}
-
-section:hover{
-    transform: translateY(-20px);
-}
-
 @keyframes float{
     0%{
         text-shadow: 6px 6px 0 #FFF;

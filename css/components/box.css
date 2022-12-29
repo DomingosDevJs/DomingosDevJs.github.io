@@ -1,0 +1,24 @@
+.box{
+    display: inline-block;
+    text-align: center;
+    margin-left: 125px;
+    margin-top: 125px;
+}
+
+section{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background-color:#310D20;
+    padding: 42px 44px;
+    box-shadow: 8px 8px 0 #000;
+    transition: transform 0.4s ease-in-out;
+}
+
+section h2{
+    margin-bottom:28px;
+}
+
+section:hover{
+    transform: translateY(-20px);
+}
