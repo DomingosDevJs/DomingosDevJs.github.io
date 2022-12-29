@@ -65,6 +65,13 @@ a:hover{
     box-shadow: 5px 5px 0px #F25A70;
 }
 
+.main{
+    display: inline-block;
+    text-align: center;
+    margin-left: 125px;
+    margin-top: 125px;
+}
+
 section{
     display: inline-block;
     align-items: center;
@@ -77,39 +84,6 @@ section{
 
 section:hover{
     transform: translateY(-20px);
-}
-
-h2{
-    font-family: 'Press Start 2P', 'Sans Serif';
-    font-size: 40px;
-    color:#FFF;
-    text-shadow: 6px 6px 0 #F25A70;
-    align-items: center;
-    justify-content: center;
-}
-
-.main{
-    display: inline-block;
-    text-align: center;
-    margin-left: 125px;
-    margin-top: 125px;
-}
-
-p{
-    font-family: 'Press Start 2P', 'Sans Serif';
-    font-size: 30px;
-    color:#F25A70;
-    margin-top:40px;
-    text-shadow: 6px 6px 0 #000;
-    text-align: center;
-    justify-content: center;
-}
-
-.buttons{
-    display: flex;
-    margin-top: 30px;
-    justify-content: center;
-    gap: 100px;
 }
 
 @keyframes float{
