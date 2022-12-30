@@ -3,11 +3,14 @@
     background-color: #F25A70;
     height: 60px;
     line-height: 60px;
+    font-size: 20px;
     padding-right: 20px;
     padding-left: 20px;
     box-shadow: 5px 5px 0px #000;
     margin-right:0;
     transition: transform 0.1s linear;
+    color: #FFF;
+    text-decoration: none;
 }
 
 .button:hover{
@@ -15,11 +18,4 @@
     background-color:#FFF;
     color:#000;
     box-shadow: 5px 5px 0px #F25A70;
-}
-
-.box nav{
-    display: flex;
-    margin-top: 30px;
-    justify-content: center;
-    gap: 100px;
 }
