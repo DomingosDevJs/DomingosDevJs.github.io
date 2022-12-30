@@ -1,13 +1,4 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #310D20;
-    border-bottom: 10px solid #000;
-    padding: 10px 20px;
-}
-
-h1{
+#Icon{
     font-family: 'Press Start 2P', 'Sans Serif';
     color:#FFF;
     text-shadow: 6px 6px 0 #F25A70;
@@ -15,35 +6,8 @@ h1{
     justify-content: center;
 }
 
-h1:hover{
+#Icon:hover{
     animation: float 1.5s ease-in-out infinite;
-}
-
-nav{
-    text-align: right;
-}
-
-a{
-    display:inline-flex;
-    align-items:center;
-    color:white;
-    font-size: 20px;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
-}
-
-a::before{ 
-    content:"";
-    background-color:#F25A70;
-    width:10px;
-    height:10px;
-    margin-right:10px;
-}
-
-a:hover{
-    color: #F25A70;;
 }
 
 @keyframes float{

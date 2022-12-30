@@ -1,11 +1,18 @@
-.box{
+.box-title{
     display: inline-block;
     text-align: center;
     margin-left: 125px;
     margin-top: 125px;
 }
 
-section{
+.box-title .navigation{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.box{
     display: inline-block;
     align-items: center;
     justify-content: center;
@@ -15,10 +22,10 @@ section{
     transition: transform 0.4s ease-in-out;
 }
 
-section h2{
+.box .Title{
     margin-bottom:28px;
 }
 
-section:hover{
+.box:hover{
     transform: translateY(-20px);
 }
