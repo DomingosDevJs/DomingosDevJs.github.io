@@ -1,0 +1,27 @@
+.image{
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+    top: 250px;
+}
+
+.img-icon{
+    width: 350px;
+    height: 350px;
+    border-style:groove;
+    border-color:#000;
+    box-shadow: 8px 8px 0 #310D20;
+    transition: transform 0.1s ease-in-out;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.img-icon:hover{
+    box-shadow: 8px 8px 0 #F25A70;
+    transform: translateY(-15px);
+}
