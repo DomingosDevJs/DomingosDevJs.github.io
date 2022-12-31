@@ -1,17 +1,3 @@
-.box-title{
-    display: inline-block;
-    text-align: center;
-    margin-left: 125px;
-    margin-top: 125px;
-}
-
-.box-title .navigation{
-    display: flex;
-    margin-top: 30px;
-    justify-content: center;
-    gap: 100px;
-}
-
 .box{
     display: inline-block;
     align-items: center;
@@ -22,10 +8,33 @@
     transition: transform 0.4s ease-in-out;
 }
 
+.box-title{
+    display: inline-block;
+    position: absolute;
+    opacity:0.6;
+    top: 200px;
+    left: 150px;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.1s ease-in-out
+}
+
+.box-title .navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+
 .box .Title{
     margin-bottom:28px;
 }
 
 .box:hover{
     transform: translateY(-20px);
+}
+
+.box-title:hover{
+    opacity: 1;
 }
