@@ -2,7 +2,51 @@
     display: flex;
     background-image: url(../../assets/img/2122578.jpg);
     background-size: cover;
-    justify-content: center;
     align-items: center;
     height: 800px;
+    border-bottom: 10px solid #000;
+}
+
+.banner .Main{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.banner .wrapper{
+    display: inline-block;
+    opacity:0.6;
+    top: 200px;
+    left: 150px;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.1s ease-in-out
+}
+
+.wrapper:hover{
+    opacity: 1;
+}
+
+.banner .box{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background-color:#310D20;
+    padding: 42px 44px;
+    box-shadow: 8px 8px 0 #000;
+    transition: transform 0.4s ease-in-out;
+}
+
+.banner .Title{
+    margin-bottom:28px;
+}
+
+.box:hover{
+    transform: translateY(-20px);
+}
+
+.banner .navigation{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
 }
