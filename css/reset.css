@@ -10,3 +10,7 @@ button{
     border: none;
     font-family: inherit;
 }
+
+.progress-bar{
+    appearance: none;
+}
