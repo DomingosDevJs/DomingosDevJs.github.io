@@ -1,0 +1,22 @@
+.wrapper-skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+    
+    background-color: #F25A70;
+    border: 5px solid #FFF;
+    box-shadow: 8px 8px 0 #000;
+}
+
+.wrapper-skill .main-skill{
+    width: 430px;
+    margin-bottom: 40px;
+}
+
+.wrapper-skill .progress-bar{
+    width: 320px;
+}

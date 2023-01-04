@@ -1,5 +1,7 @@
 .main-skill{
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Press Start 2P', 'Sans Serif';
     font-size: 25px;
     color: #FFF;
@@ -13,4 +15,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.main-skill .Subtitle{
+    margin-bottom: 10px;
 }
