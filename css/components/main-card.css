@@ -1,0 +1,29 @@
+.main-card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:280px;
+    height:280px;
+    opacity:0.6;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.main-card .main-project{
+    width: 300px;
+    height: 300px;
+}
+
+.main-card.-second{
+    background-color: #7C5E99;
+    box-shadow: 8px 8px 0 #FFF;
+}
+
+.main-card.-third{
+    background-color: #041647;
+    box-shadow: 8px 8px 0 #FFF;
+}
+
+.main-card:hover{
+    opacity: 1;
+    transform: translateY(-10px);
+}

@@ -8,3 +8,7 @@
 .section .main-Subtitle{
     margin-bottom: 60px;
 }
+
+.section.-second{
+    background-color: #000;
+}
