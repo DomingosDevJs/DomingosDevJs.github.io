@@ -6,6 +6,7 @@
     height:280px;
     opacity:0.6;
     transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+    box-shadow: 10px 10px 0 #FFF;
 }
 
 .main-card .main-project{
@@ -15,12 +16,14 @@
 
 .main-card.-second{
     background-color: #7C5E99;
-    box-shadow: 10px 10px 0 #FFF;
 }
 
 .main-card.-third{
     background-color: #041647;
-    box-shadow: 10px 10px 0 #FFF;
+}
+
+.main-card.-prime{
+    background-color: #310D20;
 }
 
 .main-card:hover{
