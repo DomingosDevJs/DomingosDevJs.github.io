@@ -1,4 +1,4 @@
-.image{
+.main-image{
     display: inline-block;
     background-color: #310D20;
     box-shadow: 8px 8px 0 #000;
@@ -15,14 +15,14 @@
     border-color:#000;
 }
 
-footer{
+.description{
     display: flex;
     justify-content: center;
     padding: 5px 0;
     color: #fff;
 }
 
-.image:hover{
+.main-image:hover{
     box-shadow: 8px 8px 0 #F25A70;
     transform: translateY(-15px);
 }

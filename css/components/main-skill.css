@@ -7,16 +7,16 @@
     color: #FFF;
 }
 
-.main-skill .icon{
+.main-skill .skill-icon{
     margin-right: 25px;
 }
 
-.main-skill .right{
+.main-skill .skill-right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.main-skill .Subtitle{
+.main-skill .skill-Subtitle{
     margin-bottom: 10px;
 }

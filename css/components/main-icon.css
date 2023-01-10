@@ -1,4 +1,4 @@
-#Icon{
+#main-Icon{
     font-family: 'Press Start 2P', 'Sans Serif';
     color:#FFF;
     text-shadow: 6px 6px 0 #F25A70;
@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-#Icon:hover{
+#main-Icon:hover{
     animation: float 1.5s ease-in-out infinite;
 }
 

@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
     display: flex;
     background-image: url(../../assets/img/2122578.jpg);
     background-size: cover;
@@ -7,13 +7,13 @@
     border-bottom: 10px solid #000;
 }
 
-.banner .Main{
+.main-banner .main-left{
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
 
-.banner .wrapper{
+.main-banner .main-wrapper{
     display: inline-block;
     opacity:0.6;
     top: 200px;
@@ -23,11 +23,11 @@
     transition: opacity 0.1s ease-in-out
 }
 
-.wrapper:hover{
+.main-wrapper:hover{
     opacity: 1;
 }
 
-.banner .box{
+.main-banner .box{
     display: inline-block;
     align-items: center;
     justify-content: center;
@@ -37,7 +37,7 @@
     transition: transform 0.4s ease-in-out;
 }
 
-.banner .Title{
+.main-banner .main-Title{
     margin-bottom:28px;
 }
 
@@ -45,7 +45,7 @@
     transform: translateY(-20px);
 }
 
-.banner .navigation{
+.main-banner .navigation{
     display: flex;
     justify-content: space-around;
     margin-top: 40px;

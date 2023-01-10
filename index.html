@@ -11,15 +11,15 @@
 
     <link rel="stylesheet" href="css/reset.css"> <!-- Sempre colocar o reset.css em cima do arquivo css principal -->
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/icon.css">
-    <link rel="stylesheet" href="css/components/action.css">
-    <link rel="stylesheet" href="css/components/banner.css">
-    <link rel="stylesheet" href="css/components/title.css">
+    <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/main-icon.css">
+    <link rel="stylesheet" href="css/components/main-action.css">
+    <link rel="stylesheet" href="css/components/main-banner.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/main-subtitle.css">
-    <link rel="stylesheet" href="css/components/buttons.css">
+    <link rel="stylesheet" href="css/components/main-button.css">
     <link rel="stylesheet" href="css/components/image-icon.css">
-    <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/main-section.css">
     <link rel="stylesheet" href="css/components/main-skill.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
@@ -28,105 +28,105 @@
     
 </head>
 <body>
-    <header class="header">
-        <h1 id="Icon">DomingosDev</h1>
+    <header class="main-header">
+        <h1 id="main-Icon">DomingosDev</h1>
         <nav class="navigation">
-            <a class="action" href="" lang="en">Skills</a> <!-- emmet: tag [Atributos] {Conteudo} -->
-            <a class="action" href="">Projetos</a>
-            <a class="action" href="">Sobre</a>
-            <a class="action" href="">Contatos</a>
-            <a class="button" href="" lang="en">Download CV</a>
+            <a class="main-action" href="" lang="en">Skills</a> <!-- emmet: tag [Atributos] {Conteudo} -->
+            <a class="main-action" href="">Projetos</a>
+            <a class="main-action" href="">Sobre</a>
+            <a class="main-action" href="">Contatos</a>
+            <a class="main-button" href="" lang="en">Download CV</a>
         </nav>
     </header>
-    <section class="banner">
-        <div class="Main">
-            <div class="wrapper">
+    <section class="main-banner">
+        <div class="main-left">
+            <div class="main-wrapper">
                 <div class="box">
-                    <h2 class="Title">Gabriel Domingos</h2>
+                    <h2 class="main-Title">Gabriel Domingos</h2>
                     <h3 class="main-Subtitle">FrontEnd Developer</h3>
                 </div>
                 <nav class="navigation">
-                    <a class="button" href="">Download CV</a>
-                    <a class="button" href="">Contatos</a>
+                    <a class="main-button" href="">Download CV</a>
+                    <a class="main-button" href="">Contatos</a>
                 </nav>
             </div>
-            <div class="image">
+            <div class="main-image">
                 <img class="img-icon" src="assets/img/back-portfolio.jpg" alt="GabrielDomingos-logo">
                 <footer class="description">&copy Gabriel Domingos</footer>
             </div>
         </div>
     </section>
 
-    <section class="section">
+    <section class="main-section">
         <h2 class="main-Subtitle -second">Skills</h2>
         <div class="wrapper-skill">
             <article class="main-skill"> 
-                <img class="icon" src="assets/img/ico_html5.png" alt="icone-html">
-                <div class="right">
-                    <h3 class="Subtitle">HTML</h3>
+                <img class="skill-icon" src="assets/img/ico_html5.png" alt="icone-html">
+                <div class="skill-right">
+                    <h3 class="skill-Subtitle">HTML</h3>
                     <progress class="progress-bar" max="100" value="70">
                         50%
                     </progress>
                 </div>
             </article>
             <article class="main-skill"> 
-                <img class="icon" src="assets/img/ico_nodejs.png" alt="icone-html">
-                <div class="right">
-                    <h3 class="Subtitle">NodeJS</h3>
+                <img class="skill-icon" src="assets/img/ico_nodejs.png" alt="icone-html">
+                <div class="skill-right">
+                    <h3 class="skill-Subtitle">NodeJS</h3>
                     <progress class="progress-bar" max="100" value="70">
                         50%
                     </progress>
                 </div>
             </article>
             <article class="main-skill"> 
-                <img class="icon" src="assets/img/ico_css3.png" alt="icone-html">
-                <div class="right">
-                    <h3 class="Subtitle">CSS</h3>
+                <img class="skill-icon" src="assets/img/ico_css3.png" alt="icone-html">
+                <div class="skill-right">
+                    <h3 class="skill-Subtitle">CSS</h3>
                     <progress class="progress-bar" max="100" value="70">
                         50%
                     </progress>
                 </div>
             </article>
             <article class="main-skill"> 
-                <img class="icon" src="assets/img/ico_tdd.png" alt="icone-html">
-                <div class="right">
-                    <h3 class="Subtitle">TDD</h3>
+                <img class="skill-icon" src="assets/img/ico_tdd.png" alt="icone-html">
+                <div class="skill-right">
+                    <h3 class="skill-Subtitle">TDD</h3>
                     <progress class="progress-bar" max="100" value="70">
                         50%
                     </progress>
                 </div>
             </article>
             <article class="main-skill"> 
-                <img class="icon" src="assets/img/ico_js.png" alt="icone-html">
-                <div class="right">
-                    <h3 class="Subtitle">JavaScript</h3>
+                <img class="skill-icon" src="assets/img/ico_js.png" alt="icone-html">
+                <div class="skill-right">
+                    <h3 class="skill-Subtitle">JavaScript</h3>
                     <progress class="progress-bar" max="100" value="70">
                         50%
                     </progress>
                 </div>
             </article>
             <article class="main-skill"> 
-                <img class="icon" src="assets/img/ico_restapi.png" alt="icone-html">
-                <div class="right">
-                    <h3 class="Subtitle">Rest API</h3>
+                <img class="skill-icon" src="assets/img/ico_restapi.png" alt="icone-html">
+                <div class="skill-right">
+                    <h3 class="skill-Subtitle">Rest API</h3>
                     <progress class="progress-bar" max="100" value="70">
                         50%
                     </progress>
                 </div>
             </article>
             <article class="main-skill"> 
-                <img class="icon" src="assets/img/ico_react.png" alt="icone-html">
-                <div class="right">
-                    <h3 class="Subtitle">React</h3>
+                <img class="skill-icon" src="assets/img/ico_react.png" alt="icone-html">
+                <div class="skill-right">
+                    <h3 class="skill-Subtitle">React</h3>
                     <progress class="progress-bar" max="100" value="70">
                         50%
                     </progress>
                 </div>
             </article>
             <article class="main-skill"> 
-                <img class="icon" src="assets/img/ico_ux.png" alt="icone-html">
-                <div class="right">
-                    <h3 class="Subtitle">UX</h3>
+                <img class="skill-icon" src="assets/img/ico_ux.png" alt="icone-html">
+                <div class="skill-right">
+                    <h3 class="skill-Subtitle">UX</h3>
                     <progress class="progress-bar" max="100" value="70">
                         50%
                     </progress>
@@ -135,7 +135,7 @@
         </div>
     </section>
 
-    <section class="section -second">
+    <section class="main-section -second">
         <h2 class="main-Subtitle -second">Projetos</h2>
         <div class="wrapper-projetos">
 
@@ -153,7 +153,7 @@
 
             <a href="http://domingosdevjs.github.io." rel="noopener noreferrer">
                 <figure class="main-card -prime">
-                    <h2 class="Title">DomingosDev<br>Portfólio</br></h2>
+                    <h2 class="main-Title">DomingosDev<br>Portfólio</br></h2>
                 </figure>
             </a>
 

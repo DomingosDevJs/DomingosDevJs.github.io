@@ -1,4 +1,4 @@
-.action{
+.main-action{
     display:inline-flex;
     align-items:center;
     font-family:'Fira Code', sans-serif;
@@ -9,7 +9,7 @@
     margin-right: 30px;
 }
 
-.action::before{
+.main-action::before{
     content:"";
     background-color:#F25A70;
     width:10px;
@@ -17,6 +17,6 @@
     margin-right:10px;
 }
 
-.action:hover{
+.main-action:hover{
     color: #F25A70;
 }
