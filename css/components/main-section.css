@@ -11,4 +11,17 @@
 
 .main-section.-second{
     background-color: #000;
+    border-bottom: 10px solid #310D20;
+}
+
+.main-section.-third{
+    background-color: #F25A70;
+    border-bottom: 10px solid #310D20;
+}
+
+.main-section.-third .main-about{
+    font-family:'Fira Code', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFF;
 }
