@@ -4,12 +4,17 @@
 }
 
 .wrapper-description .main-description{
-    width: 65%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
     padding: 20px;
     background-color: #310D20;
     font-family:'Fira Code', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 30px;
+    line-height: 40px;
     color: #FFF;
     border: 6px double #000;
+    box-shadow: 8px 8px 0 #000;
 }

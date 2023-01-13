@@ -1,0 +1,46 @@
+.node-card{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.node-card::before{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    height: 0px;
+    width: 40px;
+    border: 3px dashed #000;
+    transform: rotate(90deg);
+    top: 52px;
+}
+
+.node-card .title{
+    font-family: 'Press Start 2P', 'Sans Serif';
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.node-card .main-logo{
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    max-height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px solid #000;
+}
+
+.node-card .main-logo.-etec{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 45px;
+    background-color: #FFF;
+}
+
+.node-card .main-logo.-geral{
+    padding: 0;
+}

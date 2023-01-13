@@ -1,0 +1,19 @@
+.wrapper-carousel{
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+}
+
+.wrapper-carousel::after{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: #000;
+    top: 50px;
+}
+
+.wrapper-carousel .button-arrow{
+    margin-top: 140px;
+}
