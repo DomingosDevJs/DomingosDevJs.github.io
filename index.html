@@ -168,29 +168,33 @@
         <h2 class="main-Subtitle -second">Sobre</h2>
 
         <div class="wrapper-carousel">
-            <button class="button-arrow -left"><span class="content">Avançar</span></button>
+            <button class="button-arrow -left" onclick="esquerda()"><span class="content">Avançar</span></button>
 
-            <figure class="node-card">
-                <figcaption class="title">2019</figcaption>
-                <img class="main-logo -etec" src="assets/img/logo_etec2.png" alt="Logo-Etec">
-            </figure>
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2020</figcaption>
+                        <img class="main-logo -etec" src="assets/img/logo_etec2.png" alt="Logo-Etec">
+                    </figure>
 
-            <figure class="node-card">
-                <figcaption class="title">2021/2022</figcaption>
-                <img class="main-logo -geral" src="assets/img/dje-logo.jpg" alt="Logo-Etec">
-            </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2021/2022</figcaption>
+                        <img class="main-logo -geral" src="assets/img/dje-logo.jpg" alt="Logo-Etec">
+                    </figure>
 
-            <figure class="node-card">
-                <figcaption class="title">2022</figcaption>
-                <img class="main-logo -geral" src="assets/img/logo-Bragantec.jpg" alt="Logo-Etec">
-            </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2022</figcaption>
+                        <img class="main-logo -geral" src="assets/img/logo-Bragantec.jpg" alt="Logo-Etec">
+                    </figure>
 
-            <figure class="node-card">
-                <figcaption class="title">2022</figcaption>
-                <img class="main-logo -geral" src="assets/img/logo-oracle.png" alt="Logo-Etec">
-            </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2022</figcaption>
+                        <img class="main-logo -geral" src="assets/img/logo-oracle.png" alt="Logo-Etec">
+                    </figure>
+                </div>
+            </div>
 
-            <button class="button-arrow -right"><span class="content">Voltar</span></button>
+            <button class="button-arrow -right" onclick="direita()"><span class="content">Voltar</span></button>
         </div>
 
         <div class="wrapper-description">
@@ -206,5 +210,6 @@
             </p>
         </div>
     </section>
+    <script src="js/components/main-carousel.js"></script>
 </body>
 </html>
