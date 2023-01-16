@@ -1,5 +1,5 @@
-var buttonR = document.querySelector('.button-arrow.-right');
-var buttonL = document.querySelector('.button-arrow.-left')
+var buttonL = document.querySelector('.button-arrow.-right');
+var buttonR = document.querySelector('.button-arrow.-left')
 var elements = document.querySelector('.elements')
 var pixels = 0
 
