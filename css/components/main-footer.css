@@ -1,0 +1,19 @@
+.main-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 0;
+    gap: 70px;
+    background-color:#000;
+}
+
+.main-footer .footer-icons{
+    max-width: 50px;
+    max-height: 50px;
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.footer-icons:hover{
+    opacity: 1;
+}
