@@ -1,0 +1,15 @@
+.wrapper-form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+}
+
+.wrapper-form .main-input{
+    margin-bottom: 15px ;
+    height: 20px;
+    border: 5px solid #000;
+}
+
+.wrapper-form .main-input.-area{
+    height: 200px;
+}

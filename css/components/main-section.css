@@ -16,5 +16,9 @@
 
 .main-section.-third{
     background-color: #F25A70;
-    border-bottom: 10px solid #310D20;
+    border-bottom: 10px solid #000;
+}
+
+.main-section.-fourth{
+    border-bottom: 10px solid #000;
 }
