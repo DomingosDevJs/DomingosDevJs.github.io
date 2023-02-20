@@ -37,12 +37,14 @@
 <body>
     <header class="main-header">
         <h1 id="main-Icon">DomingosDev</h1>
-        <nav class="navigation">
+
+        <nav id="navigation" class="navigation -menu">
             <a class="main-action" href="" lang="en">Skills</a> <!-- emmet: tag [Atributos] {Conteudo} -->
             <a class="main-action" href="">Projetos</a>
             <a class="main-action" href="">Sobre</a>
             <a class="main-action" href="">Contatos</a>
             <a class="main-button" href="" lang="en">Download CV</a>
+
         </nav>
     </header>
     <section class="main-banner">
@@ -194,6 +196,11 @@
                         <figcaption class="title">2022</figcaption>
                         <img class="main-logo -geral" src="assets/img/logo-oracle.png" alt="Logo-Etec">
                     </figure>
+
+                    <figure class="node-card">
+                        <figcaption class="title">2023</figcaption>
+                        <img class="main-logo -geral" src="assets/img/logo HTA Auto.jpeg" alt="Logo HTA">
+                    </figure>
                 </div>
             </div>
 
@@ -203,7 +210,7 @@
         <div class="wrapper-description">
             <p class="main-description">
                 Estudante de programação, Gabriel De Souza Domingos tem 17 anos, é formado em Técnico de Automação Industrial
-                e atualmente está sem emprego, sonha em trabalhar na area tecnologica como fullstack dev; 
+                e atualmente está trabalhando em uma empresa de automação residencial chamada "HTA Automação", sonha em trabalhar na area tecnologica como fullstack dev; 
                 <br>Gabriel Domingos entrou na ETEC Rosa Perrone Scavone onde teve formação técnica em Automação Industrial e
                 tambem fez o ensino médio integrado ao técnico; Lá ele participou de algumas competições, uma delas foi o DJE 
                 (Desafio Jovem Engenheiro), uma competição de nivel nacional onde conquistou o 2 lugar, Após isso, participou também 
@@ -218,11 +225,11 @@
         <h2 class="main-Subtitle -second">Contatos</h2>
         <form class="wrapper-form">
             <label class="main-label" for="name">Nome</label>
-            <input class="main-input" id="name" type="text">
+            <input class="main-input" id="name" type="text" required>
             <label class="main-label" for="email">Email</label>
-            <input class="main-input" id="email" type="email">
+            <input class="main-input" id="email" type="email" required>
             <label class="main-label" for="message">Mensagens</label>
-            <textarea class="main-input -area" id="message"></textarea>
+            <textarea class="main-input -area" id="message" required></textarea>
             <button class="main-button -form" type="submit">Enviar</button>
         </form>
     </section>
@@ -246,6 +253,7 @@
     
     </footer>
 
+    <script src="js/components/main-menu.js"></script>
     <script src="js/components/main-carousel.js"></script>
 </body>
 </html>

@@ -4,11 +4,11 @@ var elements = document.querySelector('.elements')
 var pixels = 0
 
 buttonR.addEventListener('click', function(){
-    pixels += 250
+    pixels += 300
     elements.style = `transform: translateX(${pixels}px);`
 })
     
 buttonL.addEventListener('click', function(){
-    pixels -= 250
+    pixels -= 300
     elements.style = `transform: translateX(${pixels}px);`
 })
